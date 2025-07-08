@@ -25,14 +25,18 @@ trading_client = TradingClient(
 
 def passes_filters(row: pd.Series, analysis: Dict) -> bool:
     if analysis.get("sentiment", "") == "negative":
+        logger.debug("%s filtered out: negative sentiment", row.name)
         return False
     if analysis.get("urgency", 0) < 0.5:
+        logger.debug("%s filtered out: urgency < 0.5", row.name)
         return False
-    if analysis.get("sentiment", 0) < 0.7 and analysis.get("urgency", 0) < 0.5:
-        return False
+    # if analysis.get("sentiment", 0) < 0.7 and analysis.get("urgency", 0) < 0.5:
+    #     return False
     if row["volume"] < 3 * row["VOL_AVG5"]:
+        logger.debug("%s filtered out: volume < 3x avg", row.name)
         return False
     if row["close"] <= row["EMA20"] or row["close"] <= row["VWAP"]:
+        logger.debug("%s filtered out: close <= EMA20 or VWAP", row.name)
         return False
     return True
 
@@ -47,9 +51,7 @@ async def process(symbol: str, bars: pd.DataFrame, analysis: Dict):
         tp = entry + 4.0 * atr
         account = trading_client.get_account()
         portfolio_value = float(account.equity)
-        size = floor(
-            config.defaults["risk_pct"] * portfolio_value / (entry - stop)
-        )
+        size = floor(config.defaults["risk_pct"] * portfolio_value / (entry - stop))
         candidate = {
             "symbol": symbol,
             "entry": entry,
@@ -58,13 +60,25 @@ async def process(symbol: str, bars: pd.DataFrame, analysis: Dict):
             "size": size,
             "analysis": analysis,
         }
+        logger.info(
+            "Candidate %s size=%d entry=%.2f stop=%.2f tp=%.2f",
+            symbol,
+            size,
+            entry,
+            stop,
+            tp,
+        )
         await candidate_queue.put(candidate)
 
 
 async def main():
     analysis_map: Dict[str, Dict] = {}
     while True:
+        logger.debug(
+            "analysis_queue=%d bar_queue=%d", analysis_queue.qsize(), bar_queue.qsize()
+        )
         done = False
+
         while not analysis_queue.empty():
             data = await analysis_queue.get()
             analysis_map[data["key"]] = data

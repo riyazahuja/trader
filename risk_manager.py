@@ -43,6 +43,12 @@ async def process(candidate: Dict):
     if len(positions) >= config.defaults["max_open_trades"]:
         logger.info("Max open trades reached; rejecting trade")
         return
+    logger.info(
+        "APPROVED %s size=%d risk now %.2f%%",
+        candidate["symbol"],
+        candidate["size"],
+        100 * (risk + new_trade_loss) / portfolio_value,
+    )
     await approved_queue.put(candidate)
 
 

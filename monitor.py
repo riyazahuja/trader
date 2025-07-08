@@ -4,6 +4,8 @@ import logging
 from datetime import datetime
 
 from alpaca.trading.client import TradingClient
+from alpaca.trading.requests import GetOrdersRequest
+from alpaca.trading.enums import QueryOrderStatus
 
 import config
 
@@ -19,7 +21,12 @@ trading_client = TradingClient(
 
 async def poll():
     while True:
-        orders = trading_client.get_orders(status="all", limit=50)
+
+        request_params = GetOrdersRequest(
+            status=QueryOrderStatus.ALL, limit=50  # OPEN | CLOSED | ALL
+        )
+        orders = trading_client.get_orders(filter=request_params)
+        logger.info("Polled %d orders", len(orders))
         with open("trades.csv", "a", newline="") as f:
             writer = csv.writer(f)
             for order in orders:
