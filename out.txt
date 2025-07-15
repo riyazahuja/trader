@@ -1,0 +1,858 @@
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.7,
+  "expected_move": -0.1
+}
+Raw response: {
+  "tickers": [
+    "AAPL"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.85,
+  "expected_move": -0.75
+}
+Raw response: {
+  "tickers": [
+    "X",
+    "TWTR"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.9,
+  "expected_move": -0.15
+}
+Raw response: {
+  "tickers": [
+    "FCX"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.9,
+  "expected_move": null
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.8,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "neutral",
+  "urgency": 0.1,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [
+    "TSLA"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.9,
+  "expected_move": null
+}
+Raw response: {
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "GOOGL",
+    "AMZN",
+    "NVDA",
+    "META",
+    "SBUX"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.8,
+  "expected_move": 0.01
+}
+Raw response: {
+  "tickers": [
+    "NVDA",
+    "MSFT",
+    "AAPL"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.4,
+  "expected_move": -0.05
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.7,
+  "expected_move": -0.28
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.9,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [
+    "MSFT"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.7,
+  "expected_move": 0.1
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.2,
+  "expected_move": -0.05
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.7,
+  "expected_move": -0.05
+}
+Raw response: {
+  "tickers": [
+    "SPY"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.6,
+  "expected_move": -0.05
+}
+Raw response: {
+  "tickers": [
+    "MRK",
+    "VRNA"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.9,
+  "expected_move": 0.05
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.1,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "penny_stock",
+  "sentiment": "positive",
+  "urgency": 0.9,
+  "expected_move": null
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "neutral",
+  "urgency": 0.6,
+  "expected_move": -0.25
+}
+Raw response: {
+  "tickers": [
+    "META",
+    "ESLOY"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.7,
+  "expected_move": 0.02
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "penny_stock",
+  "sentiment": "negative",
+  "urgency": 0.9,
+  "expected_move": 1.0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.1,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.0,
+  "expected_move": 0.0
+}
+Raw response: {
+  "tickers": [
+    "WPP"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.9,
+  "expected_move": -10
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.2,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [
+    "AAPL"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.6,
+  "expected_move": 0.01
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.6,
+  "expected_move": 0.03
+}
+Raw response: {
+  "tickers": [
+    "ProKidney"
+  ],
+  "asset_class": "penny_stock",
+  "sentiment": "positive",
+  "urgency": 0.9,
+  "expected_move": 0.15
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.3,
+  "expected_move": 0.05
+}
+Raw response: {
+  "tickers": [
+    "MCD"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "neutral",
+  "urgency": 0.6,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 1,
+  "expected_move": -1
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.9,
+  "expected_move": 0.0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.7,
+  "expected_move": 0.07
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.7,
+  "expected_move": -0.01
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "neutral",
+  "urgency": 0.2,
+  "expected_move": 0.0
+}
+Raw response: {
+  "tickers": [
+    "USD"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.7,
+  "expected_move": -0.1
+}
+Raw response: {
+  "tickers": [
+    "WEN"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.8,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": null,
+  "sentiment": "positive",
+  "urgency": 0.3,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [
+    "NVDA"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.9,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [
+    "HON"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.7,
+  "expected_move": 0.05
+}
+Raw response: {
+  "tickers": [
+    "GEV"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.5,
+  "expected_move": 0.1
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "neutral",
+  "urgency": 0.1,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.1,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.7,
+  "expected_move": -0.3
+}
+Raw response: {
+  "tickers": ["CRCL"],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.2,
+  "expected_move": -0.6
+}
+Raw response: {
+  "tickers": [
+    "BA"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.2,
+  "expected_move": 0.02
+}
+Raw response: {
+  "tickers": [
+    "NVDA"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.3,
+  "expected_move": 0.7
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.8,
+  "expected_move": 0.55
+}
+Raw response: {
+  "tickers": [
+    "GS"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.1,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "neutral",
+  "urgency": 0.7,
+  "expected_move": 0.0
+}
+Raw response: {
+  "tickers": [
+    "SPX"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.8,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [
+    "ORCL"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.4,
+  "expected_move": 0.05
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.1,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "neutral",
+  "urgency": 0,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "penny_stock",
+  "sentiment": "positive",
+  "urgency": 0,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.2,
+  "expected_move": 0.0
+}
+Raw response: {
+  "tickers": [
+    "WEN",
+    "HSY"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "neutral",
+  "urgency": 0.8,
+  "expected_move": 1.0
+}
+Raw response: {
+  "tickers": [
+    "WW"
+  ],
+  "asset_class": "penny_stock",
+  "sentiment": "positive",
+  "urgency": 0.9,
+  "expected_move": 0.1
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.9,
+  "expected_move": -0.1
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.9,
+  "expected_move": -0.05
+}
+Raw response: {
+  "tickers": [
+    "ENPH"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.9,
+  "expected_move": -0.7
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.8,
+  "expected_move": 0.03
+}
+Raw response: {
+  "tickers": ["S&P 500"],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.6,
+  "expected_move": 1
+}
+Raw response: {
+  "tickers": [
+    "UST"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.85,
+  "expected_move": -0.02
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.85,
+  "expected_move": -0.1
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.9,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.7,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.6,
+  "expected_move": 0.005
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.1,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.5,
+  "expected_move": 0.01
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.8,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [
+    "MAHLIFE.NS",
+    "SIGNATURE.NS"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.8,
+  "expected_move": -0.02
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.4,
+  "expected_move": 0.5
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.8,
+  "expected_move": -0.05
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "neutral",
+  "urgency": 0.5,
+  "expected_move": 0.0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "penny_stock",
+  "sentiment": "negative",
+  "urgency": 0.1,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [
+    "XOM"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.85,
+  "expected_move": -0.03
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.6,
+  "expected_move": 0.03
+}
+Raw response: {
+  "tickers": [
+    "RKLB"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.5,
+  "expected_move": 9
+}
+Raw response: {
+  "tickers": [
+    "AMZN"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.8,
+  "expected_move": 0.8
+}
+Raw response: {
+  "tickers": [
+    "ULTA",
+    "AMZN",
+    "WMT",
+    "TGT"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.5,
+  "expected_move": 0.05
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.8,
+  "expected_move": -0.02
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.2,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [
+    "TSLA"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.6,
+  "expected_move": 0.1
+}
+Raw response: {
+  "tickers": [
+    "NFLX"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.7,
+  "expected_move": -0.03
+}
+Raw response: {
+  "tickers": [
+    "NVDA"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.6,
+  "expected_move": 20
+}
+Raw response: {
+  "tickers": [
+    "CORZ"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.9,
+  "expected_move": 0.15
+}
+Raw response: {
+  "tickers": ["META"],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.9,
+  "expected_move": -0.01
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.7,
+  "expected_move": -0.07
+}
+Raw response: {
+  "tickers": [
+    "SPX"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.9,
+  "expected_move": -500
+}
+Raw response: {
+  "tickers": [
+    "IBM"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.2,
+  "expected_move": 0.05
+}
+Raw response: {
+  "tickers": [
+    "NVDA",
+    "CRWD"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "neutral",
+  "urgency": 0.7,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [
+    "CORZ",
+    "COREWEAVE"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.85,
+  "expected_move": -0.07
+}
+Raw response: {
+  "tickers": [
+    "SQ"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.4,
+  "expected_move": 0.02
+}
+Raw response: {
+  "tickers": [
+    "AAPL"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.5,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [
+    "PEP",
+    "OXY"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.6,
+  "expected_move": 0.1
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "neutral",
+  "urgency": 0,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.1,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.8,
+  "expected_move": 1
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.9,
+  "expected_move": -0.01
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.0,
+  "expected_move": 0.0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "negative",
+  "urgency": 0.7,
+  "expected_move": 0
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.6,
+  "expected_move": 0.5
+}
+Raw response: {
+  "tickers": [],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.9,
+  "expected_move": 0.05
+}
+Raw response: {
+  "tickers": [
+    "RCL"
+  ],
+  "asset_class": "large_cap_stock",
+  "sentiment": "positive",
+  "urgency": 0.8,
+  "expected_move": 20
+}

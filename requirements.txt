@@ -1,0 +1,7 @@
+alpaca-py
+requests
+pandas
+numpy
+ta
+sqlalchemy
+google-generativeai
